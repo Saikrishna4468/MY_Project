@@ -10,7 +10,7 @@ This project focuses on automating the installation of Jenkins and hosting a sta
 - Basic knowledge of YAML, SSH, and Ansible playbooks.
 
 ## Architecture
-![Fig 1: Launching AWS Instances]([path/to/fig1.png](https://github.com/Saikrishna4468/MY_Project/blob/main/Configuration_Management_with_Ansible/imges/AWS_ins.jpg))
+![Fig 1: Launching AWS Instances](https://github.com/Saikrishna4468/MY_Project/blob/main/Configuration_Management_with_Ansible/imges/AWS_ins.jpg)
 ### Fig 1: Launching AWS Instances
 Started by launching 4 AWS instances, where I configured 1 as a **master node** and 3 as **managed nodes** to control the infrastructure effectively.
 
