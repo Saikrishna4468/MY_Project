@@ -16,19 +16,19 @@ Started by launching 4 AWS instances, where I configured 1 as a **master node** 
 
 ---
 
-![Fig 2: Installing Ansible](path/to/fig2.png)
+![Fig 2: Installing Ansible](https://github.com/Saikrishna4468/MY_Project/blob/main/Configuration_Management_with_Ansible/imges/ins_ansible.jpg)
 ### Fig 2: Installing Ansible on the Master Node
 Installed **Ansible** on the master node to manage and automate the setup across the managed nodes.
 
 ---
 
-![Fig 3: Generating SSH Key](path/to/fig3.png)
+![Fig 3: Generating SSH Key](https://github.com/Saikrishna4468/MY_Project/blob/main/Configuration_Management_with_Ansible/imges/gene_sshKey.jpg)
 ### Fig 3: Generating SSH Key for Node Connectivity
 To ensure seamless communication between the master and managed nodes, I generated an **SSH key** on the master node and configured it for password-less access to the managed nodes.
 
 ---
 
-![Fig 4: Writing Ansible Playbook](path/to/fig4.png)
+![Fig 4: Writing Ansible Playbook](https://github.com/Saikrishna4468/MY_Project/blob/main/Configuration_Management_with_Ansible/imges/write_yaml.jpg)
 ### Fig 4: Writing an Ansible Playbook
 Created a **YAML playbook** to:
 - Install **Jenkins** on two of the managed nodes.
@@ -36,13 +36,13 @@ Created a **YAML playbook** to:
 
 ---
 
-![Fig 5: Jenkins Status Before Playbook](path/to/fig5.png)
+![Fig 5: Jenkins Status Before Playbook](https://github.com/Saikrishna4468/MY_Project/blob/main/Configuration_Management_with_Ansible/imges/jen_bef_exe.jpg)
 ### Fig 5: Jenkins Status Before Playbook Execution
 Before running the playbook, the Jenkins service was missing on the two nodes. The system showed: **"jenkins.service could not be found."**
 
 ---
 
-![Fig 6: Running the Playbook](path/to/fig6.png)
+![Fig 6: Running the Playbook](https://github.com/Saikrishna4468/MY_Project/blob/main/Configuration_Management_with_Ansible/imges/run_yamlfile.jpg)
 ### Fig 6: Running the Playbook
 Executed the playbook using the command `ansible-playbook -i first_playbook.yml`, which automated the following:
 - Updating apt cache.
@@ -51,13 +51,13 @@ Executed the playbook using the command `ansible-playbook -i first_playbook.yml`
 
 ---
 
-![Fig 7: Jenkins Status After Playbook](path/to/fig7.png)
+![Fig 7: Jenkins Status After Playbook](https://github.com/Saikrishna4468/MY_Project/blob/main/Configuration_Management_with_Ansible/imges/jen_aft_exe.jpg)
 ### Fig 7: Jenkins Status After Playbook Execution
 After running the playbook, Jenkins was successfully installed and enabled on both managed nodes. The service status changed to: **"jenkins.service enabled."**
 
 ---
 
-![Fig 8: Static Website Hosted](path/to/fig8.png)
+![Fig 8: Static Website Hosted](https://github.com/Saikrishna4468/MY_Project/blob/main/Configuration_Management_with_Ansible/imges/website_host.jpg)
 ### Fig 8: Static Website Hosted
 Finally, hosted a **static website** using **HTML** and **CSS** on the third managed node. The website was successfully accessible through the browser.
 
@@ -68,16 +68,5 @@ This project provided hands-on experience with **Ansible** for configuration man
 - Use **Ansible** for automating complex setups across multiple nodes.
 - Manage Jenkins installations and host websites using **Infrastructure as Code** principles.
 
-Feel free to explore, clone, or contribute to this project!
-
-## Connect with Me
-If you found this project interesting or have any suggestions, let's connect on [LinkedIn](https://www.linkedin.com) and share ideas.
-
----
-
 ### Tags
 `#DevOps` `#Ansible` `#Jenkins` `#WebHosting` `#CloudComputing` `#AWS` `#Automation` `#InfrastructureAsCode` `#CI/CD` `#TechJourney` `#LearningInPublic`
-
----
-
-Replace `path/to/figX.png` with the actual paths to your images. If the images are hosted online, use their URLs instead. This `README.md` file should be easy to understand and provide a detailed overview of your project for anyone visiting your GitHub repository.
